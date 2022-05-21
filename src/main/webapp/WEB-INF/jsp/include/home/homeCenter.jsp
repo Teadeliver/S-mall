@@ -31,22 +31,22 @@
         <!-- Wrapper for slides -->
         <div role="listbox" class="carousel-inner">
             <div class="item active">
-                <a href="/product?id=27" target="_blank">
+                <a href="product?id=27" target="_blank">
                 <img src="img/1.jpg" class="carousel carousel-image">
                 </a>
             </div>
             <div class="item">
-                <a href="/product?id=1" target="_blank">
+                <a href="product?id=1" target="_blank">
                 <img src="img/2.jpg" class="carousel-image">
                 </a>
             </div>
             <div class="item">
-                <a href="/product?id=20" target="_blank">
+                <a href="product?id=20" target="_blank">
                 <img src="img/3.png" class="carousel-image">
                 </a>
             </div>
             <div class="item">
-                <a href="/product?id=30" target="_blank">
+                <a href="product?id=30" target="_blank">
                 <img src="img/4.png" class="carousel-image">
                 </a>
             </div>

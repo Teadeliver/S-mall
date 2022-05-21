@@ -7,12 +7,17 @@ import tmall.pojo.Comment;
 import tmall.pojo.CommentExample;
 import tmall.pojo.Order;
 import tmall.pojo.OrderItem;
+import tmall.pojo.base.BasePOJO;
 import tmall.service.CommentService;
 import tmall.service.OrderItemService;
 import tmall.service.OrderService;
 
+import java.util.Date;
 import java.util.List;
 
+/**
+ * @author littlestar
+ */
 @Service
 public class CommentServiceImpl extends BaseServiceImpl<CommentMapper,CommentExample>
         implements CommentService {
@@ -29,5 +34,12 @@ public class CommentServiceImpl extends BaseServiceImpl<CommentMapper,CommentExa
             }
         }
         return true;
+    }
+
+    @Override
+    public void delete(BasePOJO object) throws Exception {
+        object.setDeleteAt(new Date());
+        System.out.println("重写");
+        mapper.updateByPrimaryKey(object);
     }
 }

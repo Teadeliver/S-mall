@@ -5,6 +5,9 @@ import java.util.Date;
 import tmall.mapper.OrderMapper;
 import tmall.pojo.extension.OrderExtension;
 
+/**
+ * @author littlestar
+ */
 public class Order extends OrderExtension implements tmall.pojo.ORM.POJOMapper<OrderMapper> {
     /**
      *

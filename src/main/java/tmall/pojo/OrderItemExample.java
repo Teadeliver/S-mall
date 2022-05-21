@@ -1,10 +1,11 @@
 package tmall.pojo;
 
+import tmall.pojo.base.BaseExample;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import tmall.pojo.base.BaseExample;
 
 public class OrderItemExample implements BaseExample {
     /**
@@ -47,6 +48,7 @@ public class OrderItemExample implements BaseExample {
      *
      * @mbg.generated
      */
+    @Override
     public void setOrderByClause(String orderByClause) {
         this.orderByClause = orderByClause;
     }

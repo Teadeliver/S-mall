@@ -11,7 +11,7 @@
     </a>
     <div class="search">
         <form action="search" >
-        <input type="text" value="本网站仅供技术演示，源码见 http://github.com/xenv/S-mall-ssm" name="keyword">
+        <input type="text" value="" name="keyword">
         <button class="search-button" type="submit">搜索</button>
         </form>
         <ul class="search-below">

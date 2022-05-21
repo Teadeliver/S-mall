@@ -16,11 +16,12 @@
             <ul class="nav navbar-nav">
                 <li class="${light==1?'active':''}"><a  href="../category/list">分类管理</a></li>
                 <li class="${light==2?'active':''}"><a  href="../user/list">用户管理</a></li>
-                <li class="${light==3?'active':''}"><a href="../order/list">订单管理</a></li>
-                <li class="${light==4?'active':''}"><a href="../config/edit">网站设置</a></li>
+                <li class="${light==3?'active':''}"><a href="http://localhost:8080/tmall/admin/order/list">订单管理</a></li>
+                <li class="${light==4?'active':''}"><a href="../comment/list">评论管理</a></li>
+                <li class="${light==5?'active':''}"><a href="../config/edit">网站设置</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class=""><a href="../../../" target="_blank" >网站前台</a></li>
+                <li class=""><a href="../../" target="_blank" >网站前台</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

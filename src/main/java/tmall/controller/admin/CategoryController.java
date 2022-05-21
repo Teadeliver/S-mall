@@ -14,14 +14,16 @@ import tmall.util.UploadedImageFile;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
+/**
+ * @author littlestar
+ */
 @Controller
 @RequestMapping("/admin/category")
 public class CategoryController extends AdminBaseController {
     @Auth(User.Group.admin)
     @RequestMapping("list")
     public String list(Model model, Pagination pagination) throws Exception {
-        List<Category> categories = categoryService.
-                list("pagination", pagination, "order", "recommend desc, id desc");
+        List<Category> categories = categoryService.list("pagination", pagination, "order", "recommend desc, id desc");
         model.addAttribute("categories", categories);
         return "admin/listCategory";
     }

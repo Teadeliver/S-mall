@@ -43,6 +43,7 @@ public class Service4DAOImpl<M, E> implements Service4DAO, InitializingBean {
         return getMapper(mapperClass);
     }
 
+    @Override
     public Mapper getMapper(Class mapperInterface) throws Exception {
         return mapperFactory.getMapper(mapperInterface);
     }

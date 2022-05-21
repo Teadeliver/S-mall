@@ -4,6 +4,7 @@ import java.lang.annotation.*;
 /**
  * 通用Mapper| ORM配置注解：指定外键
  * 搭配 ManyToOne 和 OneToMany 使用，指定外键的 变量名
+ * @author littlestar
  */
 
 @Target(ElementType.FIELD)
